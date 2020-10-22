@@ -1,0 +1,195 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+    margin:0;
+    padding: 0;
+    background-color: gray;
+    color: indigo;
+}
+.navu{
+    background-color:#333;
+    padding: 15px;
+    margin: 0;
+    justify-content: space-between;
+    display: flex;
+    
+}
+.navu h1{
+    font-size: 35px;
+    margin: 0;
+    font-family: fantasy;
+    color:white;
+    letter-spacing: 5px;
+    font-weight: 300;
+}
+
+.main-section{
+    background-image: url("../img/image-1.JPG");
+    background-size: cover;
+    background-position: top;
+    justify-content: space-between;
+    padding: 25px;
+    margin: 0;
+    height: 80vh;
+}
+
+.navu ul {
+    float: right;
+    display: flex;
+    margin-top: 9px;
+    padding: 0;
+    list-style: none;    
+}
+
+.navu ul li{
+    margin: 0 20px;
+
+}
+.navu ul li a{
+    text-decoration: none;
+    color: whitesmoke;
+}
+.contents{
+    position: absolute;
+    left:19%;
+    top:30%;
+    text-align: center;
+}
+.contents h2{
+    display: block;
+}
+.main{
+    display: block;
+    font-size: 25px;
+    text-transform: uppercase;
+    color:white;
+    letter-spacing: 4px;
+    
+}
+.sub{
+    display: block;
+    font-size: 26px;
+    text-transform: uppercase;
+    color:white;
+    letter-spacing: 2px;
+}
+.contents a{
+    text-decoration: none;
+    color:white;
+    background-image: linear-gradient( to right ,navy,transparent);
+   
+    padding:10px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    
+
+}
+ .container{
+    padding: 15px;
+    color: white;
+    background: grey;
+    height: 100px;
+    justify-content: space-between;
+    margin:0;
+}
+ .container h1{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 22px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.container form{
+    position: absolute;
+    left:38%;
+}
+ .container input[type= "email"]{
+padding: 4px;
+height: 25px;
+width: 250px;
+}
+.button1{
+    height: 38px;
+    background: olive ;
+    border: 0;
+    padding-left: 20px ;
+    padding-right: 20px;
+}
+.sub-section{
+    background: #000000;
+}
+.list-items ul{
+  display:flex;
+  margin: 0;
+  list-style: none;
+  
+  border: 1px solid transparent;
+    border-radius: 9px;
+  padding:10px;
+}
+.list-items ul li{
+    margin:0 13px;
+    background: linear-gradient(to bottom, skyblue,transparent);
+   
+}
+.list-items ul li h3{
+    text-transform: uppercase;
+    font-family: 'Times New Roman', Times, serif;
+   text-align: center;
+    font-size: 20px;
+}
+.list-items ul li h3 a{
+    text-decoration: none;
+    color:black;
+   
+
+}
+.list-items ul li p{
+    color:white;
+    text-align: center;
+    font-size: 14px;
+}
+.bottom{
+    padding: 11px;
+    background: #333;
+    color:white;
+    font-size: 16px;
+    text-align: center;
+
+}
+@media(max-width:500px){
+    .main-section{
+        max-width: 100%;
+        background-position: top;
+        height: 200px;
+    }
+    
+    .navu h1{
+        font-size: 19px;
+    }
+    .contents{
+        position: absolute;
+        left: 10%;
+
+    }
+    .contents h2{
+        font-size: 12px;
+    }
+    .main{
+        font-size: 12px;
+    }
+    .sub{
+        font-size: 10px;
+    }
+    .btn{
+        transform: scale(0.7);
+        padding:6px;
+    }
+    .list-items ul{
+        flex-direction: column;
+    }
+    .list-items ul li{
+        margin:0 16px;
+    }
+
+}
